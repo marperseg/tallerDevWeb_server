@@ -22,18 +22,16 @@ app.use((req, res, next) => {
 });
 
 app.get('/getCV', (req, res) => {
-  res
-    .status(200)
-    .sendFile('D:/TRABAJOS/Code/Project/Server/files/CV.pdf', (err) => {
-      if (err) {
-        console.log(err);
-        res.status(404).json({
-          estado: 'Recurso no encontrado',
-          mensaje: 'Archivo no encontrado.',
-          err: err,
-        });
-      }
-    });
+  res.status(200).sendFile('/opt/render/project/src/files/CV.pdf', (err) => {
+    if (err) {
+      console.log(err);
+      res.status(404).json({
+        estado: 'Recurso no encontrado',
+        mensaje: 'Archivo no encontrado.',
+        err: err,
+      });
+    }
+  });
 });
 
 app.post('/postMensaje', (req, res) => {
