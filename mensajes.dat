@@ -1,0 +1,25 @@
+{
+ "nombre": "Eduardo",
+ "email": "eduardo@misitio.com",
+ "asunto": "Mensaje de Prueba",
+ "mensaje": "Mensaje nuevo de prueba.\nMensaje nuevo de prueba.\n\nMensaje nuevo de prueba.",
+ "fecha": "2023-10-12T18:44:09.808Z"
+}{
+ "nombre": "Eduardo",
+ "email": "eduardo@misitio.com",
+ "asunto": "Mensaje de Prueba",
+ "mensaje": "Mensaje nuevo de prueba.\nMensaje nuevo de prueba.\n\nMensaje nuevo de prueba.",
+ "fecha": "2023-10-12T18:51:11.665Z"
+}{
+ "nombre": "as",
+ "email": "asd",
+ "asunto": "asd",
+ "mensaje": "asdasdasd",
+ "fecha": "2023-10-12T22:20:11.721Z"
+}{
+ "nombre": "as",
+ "email": "asd",
+ "asunto": "asd",
+ "mensaje": "asdasdasd",
+ "fecha": "2023-10-12T22:22:26.755Z"
+}
